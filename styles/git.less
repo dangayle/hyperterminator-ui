@@ -7,6 +7,7 @@
 .status          { color: @text-color; }
 .status-added    { color: @text-color-success; } // green
 .status-ignored  { color: @text-color-subtle; }  // faded
-.status-modified { /*color: @text-color-warning;*/ font-style: italic;} // orange
+.status-modified { color: inherit; }
+.list-item.status-modified { font-weight: 800; font-style: italic;} // orange
 .status-removed  { color: @text-color-error; }   // red
 .status-renamed  { color: @text-color-info; }    // blue

@@ -2,7 +2,7 @@
   "name": "Hyperterminator-ui",
   "theme": "ui",
   "version": "0.0.1",
-  "description": "Theme based on the Hyper hyperterminator theme",
+  "description": "Based on [jxnblk](https://github.com/jxnblk)'s [Hyperterminator](http://jxnblk.com/hyperterminator/) Hyperterm theme.",
   "keywords": [
     "ui",
     "theme"
