@@ -14,6 +14,11 @@
   color: @text-color;
   background-color: @tree-view-background-color;
 
+  /* Without it the default and selected childs become with the same color as the background, sounding like no data error */
+  .list-item {
+    color: @text-color;
+  }
+  
   .list-item.selected {
     color: @text-color-selected;
   }

@@ -10,17 +10,16 @@
 // Try to edit some of the values below to see your theme change.
 // A good start is to change the color of the `@base-background-color` variable.
 
-
 @backgroundColor: #220000;
 @foregroundColor: #ff3300;
 @cursorColor: @foregroundColor;
 @borderColor: rgba(255, 0, 0, .25);
 
 // Text Colors
-@text-color:           @foregroundColor;
-@text-color-subtle:    hsl(0,0%,50%);
-@text-color-highlight: hsl(0,0%,94%);
-@text-color-selected:  @backgroundColor;
+@text-color:           #ff3300;
+@text-color-subtle:    #ff3300;
+@text-color-highlight: #ff3300;
+@text-color-selected:  #ff3300;
 
 @text-color-info:    hsl(219,  79%, 66%);
 @text-color-success: hsl(140,  44%, 62%);
@@ -48,9 +47,10 @@
 @input-background-color: @app-background-color;
 @input-border-color:     @base-border-color;
 
-@scrollbar-menu-color: #220000;
-@scrollbar-menu-background-color: rgba(7,5,10,.30);
-@scrollbar-color: lighten(#111, 10%);
+// New adaptations to the Scrollbar's style, sent in the #3 pull-request
+@scrollbar-menu-color: #330000;
+@scrollbar-menu-background-color: rgba(7,5,10,.35);
+@scrollbar-color: lighten(#111, 20%);
 @scrollbar-background-color: transparent;
 
 @tool-panel-background-color: @base-background-color;
@@ -75,7 +75,6 @@
 @tab-background-color:        @tab-bar-background-color;
 @tab-background-color-active: @foregroundColor;
 @tab-border-color:            @base-border-color;
-
 
 @tree-view-background-color: @base-background-color;
 @tree-view-border-color:     @base-border-color;
