@@ -22,7 +22,7 @@
     text-align: center;
 
 	/* Tab cursor must be pointer in .tab */
-	cursor: pointer;
+	//cursor: pointer;
 
     &.active {
       font-weight: bold;
@@ -42,11 +42,14 @@
     }
 
     // Close Icon (the X) -------------------
-    .close-icon:hover {
-      color: @text-color-selected;
+	// They must continue with their colors and inherit the cursor
+	.close-icon:hover {
+      color: @text-color;
+	  cursor: pointer;
     }
     &.active .close-icon:hover {
-      color: @text-color;
+      color: @text-color-selected;
+	  cursor: pointer;
     }
 
     // Dragging -------------------
